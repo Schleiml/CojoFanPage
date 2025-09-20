@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Minecraft_Background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Header {
+    display: flex;
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 300%;
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #0f4f03, #4e2203);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Infos {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Press Start 2P', monospace;
+    color: rgb(43, 43, 43);
+}
+
+h4 {
+    font-family: 'Press Start 2P', monospace;
+}
+
+video {
+    border-radius: 15px;
+}
+
+a {
+    border-radius: 15px;
+    width: 30vw;       
+    min-width: 80px;   
+    max-width: 200px;  
+    height: 15vh;       
+    font-size: 1.5vw; 
+}
+
+.Videos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5%;
+    margin: 10px;
+}
+
+.Socials {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5%;
+    margin: 100px;
+}
+
+#Twitch {
+    background-image: url(TwitchIcon.png);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+
+#Twitch:hover {
+    transform: scale(1.2);
+}
+
+#Youtube {
+    background-image: url(YoutubeIcon.png);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+
+#Youtube:hover {
+    transform: scale(1.2);
+}
+
+#Tiktok {
+    background-image: url(TiktokIcon.png);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+
+#Tiktok:hover {
+    transform: scale(1.2);
+}
